@@ -1,0 +1,48 @@
+.completeTask{
+    text-decoration: line-through;
+}
+
+.table th{
+    padding-top: 10px;
+    color: #7F00FF;
+}
+
+.th1{
+    max-width: 100px;
+    min-width: 100px;
+}
+
+.table{
+    width: 100%;
+}
+
+.list_row{
+    max-width: 220px;
+    min-width: 220px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.crudBtn{
+    font-size:10px;
+    float:right;
+    margin-left: 5px;
+}
+
+@media (max-width: 500px) {
+    .list_row{
+        max-width: 110px;
+        min-width: 110px;
+    }
+    .btn_group{
+        display:flex;
+        flex-direction:row;
+        width:120px;
+    }    
+    .crudBtn{
+        font-size:7px;
+        float: left;
+        margin:0;
+    }   
+}
